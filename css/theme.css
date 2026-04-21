@@ -1,0 +1,235 @@
+/* Style seet*/
+
+body > * {
+
+background-color: #0D0D0D;
+}
+
+body {
+	  font-family: Academico, new-century-schoolbook;
+    	margin: 0 auto;
+      color: white;
+      font-weight: normal;
+      text-decoration: none;
+
+}
+
+
+#myNav{
+ position: sticky;
+  top: 0; /* Set to top of page*/
+  display: flex;
+  background-image: url("../media/header-c.png");
+  padding: 30px;
+  font-size: 1.2em;
+  text-align: center;
+  align-items: center;
+  color: white;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+#myNav > div{
+  background-color: #0D0D0D;
+}
+
+.grid > div{
+  display: flex;
+  justify-content: normal;
+  align-items: center;
+  color: white;
+  gap: 10px;
+
+}
+
+.column-60 {
+  background-image: url("../media/foto3p.jpg");
+  background-size: cover;
+  background-position-x: left 20px;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  font-size: 1em;
+  gap: 20px;
+
+}
+
+.backgroundbeige {
+  background-color: #fffffe;
+}
+
+
+.grid p {
+ color: black;
+}
+
+.grid a:hover { 
+  text-decoration: underline;
+  color: black;
+  background-color: #FFFFFA;
+  font-size: 1.3em;
+}
+
+.flex-cont1s {
+  display: flex;
+  font-family: Academico, new-century-schoolbook;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.menu-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.mainmenu > a { 
+  color: white;
+  text-decoration: none;
+}
+
+a {
+  color: white;
+  text-decoration: none; 
+}
+
+#thislink{
+  color: #E3A8C1;
+  font-weight: bold;
+}
+
+.generalpad {
+  padding: 20px;
+}
+
+.menu-options-port > div{
+  display: flex;
+  padding-left: 20px;
+  gap: 30px;
+ }
+
+ .menu-options-port  ul{
+  padding-left: 20px;
+ }
+
+
+
+#vertical-ph{
+  height: 20px;
+}
+
+
+.row2 {
+  display: flex;
+  padding : 20px;
+    gap: 5px;
+}
+
+.row {
+  display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.rowbio {
+  display: flex;
+  padding : 30px;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+
+.row3 > *{
+  display: flex;
+  width: 33%;
+}
+
+.column-60 {
+  width: 60%;
+  padding: 40px;
+}
+
+.column-65 {
+  width: 60%;
+  padding: 15px;
+}
+
+
+.column-40 {
+  width: 40%;
+  padding: 10px;
+}
+
+
+.column-bio-big {
+  width: 80%;
+  padding: 20px;
+}
+
+.column-bio-small {
+padding: 20px;
+  width: 30%;
+
+}
+
+.titulo{
+  color: #E3A8C1;
+}
+
+h2 {
+  color: #0D0D0D;
+  font-family: Academico, new-century-schoolbook;
+  font-weight: normal;
+  background-image: url("../media/flower.jpeg");
+  background-position: center;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#thish2{
+  padding: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+h3{
+  color: #C2D79F;
+  font-weight: normal;
+  padding: 10px;
+  font-size: 1.2em;
+
+
+}
+
+h4{
+  padding-left: 10px;
+}
+
+p {
+  display: flex;
+    font-family: Academico, new-century-schoolbook;
+  color: white;
+}
+
+.presentation span {
+  background-color: #E1BB00;
+  color: #0D0D0D;
+}
+
+.presentation p{
+  text-align: left;
+}
+
+
+
+a:hover {  /*pseudo level - para cuando interactúe, q cambie el color*/
+	/* puede ser tb para otros elementos, incluso para abrir nuevas subsecciones*/
+  text-decoration: underline;
+  
+}
